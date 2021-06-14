@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {background-color: rgb(19, 19, 53);}
+
+
+.slider-btn {
+    background-color: rgb(19, 19, 53);
+    color: #97afd5;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #97afd5 !important;
+}
+
+.slider-btn-inactive {
+    opacity: 0.4;
+}
