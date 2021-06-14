@@ -1,0 +1,35 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(18, 12, 100);
+    padding: 25px
+}
+
+.tab{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    font-size: .88rem;
+    padding: 14px 22px;
+    border-radius: 6px;
+    color: #fff ;
+    background: transparent;
+    border: 2px solid rgba(151,175,213,0.3);
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.tab:hover{
+    color: #f42f54;
+    border: 2px solid #f42f54;
+}
+
+.tab:focus{
+    color: #f42f54;
+    border: 2px solid #f42f54;
+}
