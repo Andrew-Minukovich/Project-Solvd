@@ -1,0 +1,52 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background-color: rgb(13, 14, 58);
+}
+
+
+.header__content-login {
+    color: #fff;
+    font-size: 11px;
+    background-color:rgb(250, 250, 250, 0);
+    line-height: 19px;
+    padding: 8px 16px;
+    border-radius: 44px;
+    text-align: center;
+    font-weight: 500;
+    border: 2px solid #f42f54;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+.header__content-login:hover {
+    background-color: #f42f54;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.primary-button {
+    color: #fff;
+    font-size: 13px;
+    background-color:rgb(250, 250, 250, 0);
+    line-height: 25px;
+    padding: 12px 26px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #f42f54;
+    background-color: #f42f54;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+.primary-button:hover {
+    color: #f42f54;
+    background-color: #fff;
+    border: 2px solid #fff;
+    transition: all 0.5s ease-in-out;
+}
