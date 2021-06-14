@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkblue;
+    margin: 250px 0 0 250px;
+}
+
+.tokens-card {
+    position: relative;
+    width: 374px;
+    padding: 15px 25px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.tokens-card:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    height: 100%;
+    width: 45px;
+    border: 2px solid rgba(151,175,213,0.5);
+    left: 0;
+    border-radius: 6px 0 0 6px;
+    border-right: none;
+  }
+
+  .tokens-card::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    height: 100%;
+    width: 45px;
+    border: 2px solid rgba(151,175,213,0.5);
+    right: 0;
+    border-radius: 0 6px 6px 0;
+    border-left: none;
+  }
+
+.tokens-card__description {
+    line-height: 1.6;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.tokens-card__percent {
+    line-height: 1.6;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tokens-card__second-description {
+    font-size: 13px;
+    margin-left: 8px;
+    line-height: 1.6;
+    font-weight: 400;
+}
