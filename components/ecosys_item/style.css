@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 9, 100);
+    padding: 20px;
+}
+
+.ecosystems__block{
+    max-width: 255px;
+    width: 100%;
+    text-align: center;
+}
+
+.ecosystems__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 20px;
+}
+
+.ecosystems__descr{
+    color: #97afd5;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+.ecosystems__descr::after{
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #dbe4f7;
+    background: #f42f54;
+    left: 50%;
+    top: 200%;
+    transform: translate(-50%, -50%);
+}
+
+.ecosystems__descr::before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 95px;
+    background: #dbe4f7;
+    border-radius: 2px;
+    left: 50%;
+    top: 209%;
+    transform: translate(-50%);
+}
+
