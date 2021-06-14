@@ -1,0 +1,53 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin-top: 250px;
+    margin-left: 250px;
+    background-color:rgb(31, 12, 31)
+}
+
+.employee-card {
+    width: 240px;
+    height: 370px;
+}
+
+.employee-photo {
+    width: 216px;
+    height: 234px;
+    border-radius: 6px;
+}
+
+.employee-name {
+    color: #fff;
+    font-weight: 600;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.375rem;
+
+    padding-top: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.employee-post {
+    font-size: 0.88rem;
+    font-weight: 400;
+    color: #97afd5;
+}
+
+.employee-social-media-links {
+    margin-top: 16px;
+}
+
+.social-media-picture {
+    border-radius: 50%;
+    padding: 10px 5px;
+}
+
+.social-media-picture:hover {
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
