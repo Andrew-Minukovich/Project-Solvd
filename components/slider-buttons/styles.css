@@ -21,3 +21,7 @@ body {background-color: rgb(19, 19, 53);}
 .slider-btn-inactive {
     opacity: 0.4;
 }
+
+.slider-btn:hover {
+    cursor: pointer;
+}
