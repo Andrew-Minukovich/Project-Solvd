@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.social-media-picture {
+    border-radius: 50%;
+    padding: 10px 10px;
+}
+
+.social-media-picture:hover {
+    background-color: #fff;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
