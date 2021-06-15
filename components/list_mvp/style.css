@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(45, 17, 122);
+}
+
+.mvp__list{
+    list-style-type: none;
+    max-width: 530px;
+    width: 100%;
+}
+
+.mvp__item{
+    margin-bottom: 30px;
+    padding-left: 52px;
+    position: relative;
+    color: #97afd5;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+.mvp__item:last-child{
+    margin-bottom: 0;
+}
+
+.mvp__item::before{
+    position: absolute;
+    content: '';
+    background-image: url(check.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    top: 0;
+    left: 0;
+}
+
+
