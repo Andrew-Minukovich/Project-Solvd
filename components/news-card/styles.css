@@ -14,7 +14,6 @@ body {
     width: 370px;
     height: 150px;
     position: relative; 
-
     border-radius: 6px !important;
     background-image: linear-gradient(rgba(15,25,50,.85), rgba(15,25,50,.85)), url('assets/news-hr-b.jpg');
     background-size: cover;

@@ -5,10 +5,10 @@
     font-family: "Roboto", sans-serif;
 }
 
-body{
+body {
     margin-top: 250px;
     margin-left: 250px;
-    background-color:rgb(31, 12, 31)
+    background-color: #121333; 
 }
 
 .employee-card {
@@ -16,38 +16,43 @@ body{
     height: 370px;
 }
 
-.employee-photo {
+.employee-card__photo {
     width: 216px;
     height: 234px;
     border-radius: 6px;
 }
 
-.employee-name {
+.employee-card__name {
     color: #fff;
     font-weight: 600;
     font-family: "Quicksand", sans-serif;
-    font-size: 1.375rem;
+    font-size: 22px;
 
     padding-top: 20px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 8px;
 }
 
-.employee-post {
-    font-size: 0.88rem;
+.employee-card__post {
+    font-size: 14px;
     font-weight: 400;
     color: #97afd5;
 }
 
-.employee-social-media-links {
+.card-social-media {
     margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.social-media-picture {
+.card-social-media__picture {
     border-radius: 50%;
     padding: 10px 5px;
+    transition: 0.3s ease-in-out;
 }
 
-.social-media-picture:hover {
-    transition: 0.4s ease-in-out;
+.card-social-media__picture:hover {
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }

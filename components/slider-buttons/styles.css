@@ -3,11 +3,13 @@
     margin: 0;
 }
 
-body {background-color: rgb(19, 19, 53);}
+body {
+    background-color: #121333;
+}
 
 
 .slider-btn {
-    background-color: rgb(19, 19, 53);
+    background-color: #121333;
     color: #97afd5;
     font-size: 18px;
     width: 40px;
@@ -15,13 +17,17 @@ body {background-color: rgb(19, 19, 53);}
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    border: 1px solid #97afd5 !important;
+    border: 1px solid #97afd5;
 }
 
-.slider-btn-inactive {
+.slider-btn--inactive {
     opacity: 0.4;
 }
 
-.slider-btn:hover {
+.slider-btn--inactive:hover{
+    cursor: default;
+}
+
+.slider-btn--active:hover {
     cursor: pointer;
 }
