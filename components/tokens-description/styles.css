@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: darkblue;
+    background-color: #1f2152; 
     margin: 250px 0 0 250px;
 }
 
@@ -13,7 +13,7 @@ body {
     position: relative;
     width: 374px;
     padding: 15px 25px;
-    color: white;
+    color: #fff;
     font-family: "Roboto", sans-serif;
 }
 
@@ -41,10 +41,17 @@ body {
     border-left: none;
   }
 
-.tokens-card__description {
+.tokens-card__title {
     line-height: 1.6;
     font-weight: 700;
     font-size: 18px;
+}
+
+.tokens-card__value {
+    font-size: 13px;
+    margin-left: 8px;
+    line-height: 1.6;
+    font-weight: 400;
 }
 
 .tokens-card__percent {
@@ -53,9 +60,12 @@ body {
     font-size: 18px;
 }
 
-.tokens-card__second-description {
-    font-size: 13px;
-    margin-left: 8px;
-    line-height: 1.6;
-    font-weight: 400;
+.tokens-card:hover > .tokens-card__title {
+    color: #f42f54;
+    transition: 0.3s ease-in-out;
+}
+
+.tokens-card:hover:before, .tokens-card:hover:after{
+    border-color: #f42f54;
+    transition: 0.3s ease-in-out;
 }
