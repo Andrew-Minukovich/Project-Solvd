@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color: rgb(8, 28, 141);
+}
+
+.faqs__form{
+    max-width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.faqs__wrap-name, .faqs__wrap-email{
+    max-width: 255px;
+    width: 100%;
+}
+
+.faqs__wrap-message{
+    max-width: 540px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faqs__form-title{
+    color: #fff;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    line-height: 1.3;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 20px;
+}
+
+.faqs__form-descr{
+    color: #97afd5;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 35px;
+}
+
+.faqs__label{
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #97afd5;
+    line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 5px;
+}
+
+.faqs__name, .faqs__email{
+    font-family: "Roboto", sans-serif;
+    border-radius: 6px;
+    border: 1px solid #dbe4f7;
+    color: #97afd5;
+    max-width: 255px;
+    width: 100%;
+    padding: 10px 15px;
+    line-height: 21px;
+    font-size: .9em;
+    background-color: transparent;
+    transition: all .4s;
+}
+
+.faqs__name:hover, .faqs__email:hover{
+    border: 1px solid #f42f54;
+}
+
+.faqs__name:hover, .faqs__email:hover{
+    border: 1px solid #f42f54;
+    outline: transparent;
+}
+
+.faqs__message{
+    font-family: "Roboto", sans-serif;
+    resize: none;
+    background-color: transparent;
+    color: #97afd5;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #dbe4f7;
+    padding: 10px 15px;
+    line-height: 21px;
+    font-size: .9em;
+    transition: all .4s;
+}
+
+.faqs__message:hover{
+    border: 1px solid #f42f54;
+}
+
+.faqs__message:focus{
+    border: 1px solid #f42f54;
+    outline: transparent;
+}
+
+
+.primary-button {
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color:rgb(250, 250, 250, 0);
+    line-height: 25px;
+    padding: 12px 26px;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #f42f54;
+    background-color: #f42f54;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+    transition: all 0.5s;
+}
+
+.primary-button:hover {
+    color: #f42f54;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+.faqs__primary-button{
+    margin-left: auto;
+}
