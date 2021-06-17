@@ -5,30 +5,30 @@
 }
 
 body {
-    background-color: rgb(19, 19, 53);
     margin-top: 250px;
     margin-left: 250px;
+    background-color: #121333; 
 }
 
 .news-card {
     width: 370px;
     height: 150px;
     position: relative; 
-    border-radius: 6px !important;
+    border-radius: 6px;
     background-image: linear-gradient(rgba(15,25,50,.85), rgba(15,25,50,.85)), url('assets/news-hr-b.jpg');
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.news-card-content {
+.news-card__content {
     padding: 18px 30px 14px;
 }
 
-.news-card-content__description {
+.news-card__description {
     padding: 9px 0; 
 }
 
-.news-card-content__title {
+.news-card__title {
     color: #fff;
     font-size: 1.125rem;
     margin-bottom: 8px;
@@ -36,7 +36,7 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
-.news-card-content__subtitle {
+.news-card__subtitle {
     color: #97afd5;
     font-size: 16px;
     line-height: 1.6;
@@ -44,7 +44,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.news-card-content__link {
+.news-card__link {
     color: #97afd5;
     padding: 9px 0;
     font-size: 14px;
@@ -53,7 +53,7 @@ body {
     font-weight: 400;
 }
 
-.news-card-content__link:hover {
+.news-card__link:hover {
     cursor: pointer;
     outline: 0 none;
     transition: all 0.5s;
