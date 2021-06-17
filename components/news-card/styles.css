@@ -20,15 +20,15 @@ body {
     background-position: 50% 50%;
 }
 
-.news-content {
+.news-card-content {
     padding: 18px 30px 14px;
 }
 
-.description {
+.news-card-content__description {
     padding: 9px 0; 
 }
 
-.description__title {
+.news-card-content__title {
     color: #fff;
     font-size: 1.125rem;
     margin-bottom: 8px;
@@ -36,7 +36,7 @@ body {
     font-family: "Quicksand", sans-serif;
 }
 
-.description__paragraph {
+.news-card-content__subtitle {
     color: #97afd5;
     font-size: 16px;
     line-height: 1.6;
@@ -44,7 +44,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.news-content__link {
+.news-card-content__link {
     color: #97afd5;
     padding: 9px 0;
     font-size: 14px;
@@ -53,7 +53,7 @@ body {
     font-weight: 400;
 }
 
-.news-content__link:hover {
+.news-card-content__link:hover {
     cursor: pointer;
     outline: 0 none;
     transition: all 0.5s;
