@@ -1,29 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(26, 9, 100);
+body {
+    background-color: #1a0964;
     padding: 20px;
 }
 
-.ecosystems__block{
+.advantage {
     max-width: 255px;
     width: 100%;
     text-align: center;
 }
 
-.ecosystems__title{
+.advantage__title {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Roboto", sans-serif;
     margin-bottom: 20px;
 }
 
-.ecosystems__descr{
+.advantage__description{
     color: #97afd5;
     font-size: 16px;
     line-height: 1.6;
@@ -32,7 +32,7 @@ body{
     position: relative;
 }
 
-.ecosystems__descr::after{
+.advantage__description::after{
     position: absolute;
     content: '';
     width: 16px;
@@ -45,7 +45,7 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.ecosystems__descr::before{
+.advantage__description::before{
     position: absolute;
     content: '';
     width: 2px;
