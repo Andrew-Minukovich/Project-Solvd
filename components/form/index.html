@@ -8,22 +8,26 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" class="faqs__form">
-        <h3 class="faqs__form-title">CONTACT US</h3>
-        <p class="faqs__form-descr">We are always open and we welcome and questions you have for our team. If you wish to get in touch, please fill out the form below. Someone from our team will get back to you shortly.</p>
-        <div class="faqs__wrap-name">
-            <label class="faqs__label" for="name">Your name</label>
-            <input class="faqs__name" placeholder="Introduce yourself" type="text" id="name">
+    <form action="" class="form">
+        <h3 class="form__title">CONTACT US</h3>
+        <p class="form__description">We are always open and we welcome and questions you have for our team. If you wish to get in touch, please fill out the form below. Someone from our team will get back to you shortly.</p>
+        <div class="form__row  _flex">
+            <div class="form__input-wrapper">
+                <label class="form__label" for="name">Your name</label>
+                <input class="form__input" placeholder="Introduce yourself" type="text" id="name">
+            </div>
+            <div class="form__input-wrapper">
+                <label class="form__label" for="email">Your email</label>
+                <input class="form__input" placeholder="Who do we replay to" type="email" id="email">
+            </div>
         </div>
-        <div class="faqs__wrap-email">
-            <label class="faqs__label" for="email">Your email</label>
-            <input class="faqs__email" placeholder="Who do we replay to" type="email" id="email">
+        <div class="form__row">
+            <div class="form__wrap-message">
+                <label class="form__label" for="message">Your message</label>
+                <textarea class="form__input _textarea" name="text" id="message" placeholder="Leave your question or comment here"></textarea>
+            </div>
         </div>
-        <div class="faqs__wrap-message">
-            <label class="faqs__label" for="message">Your message</label>
-            <textarea class="faqs__message" name="text" id="message" placeholder="Leave your question or comment here"></textarea>
-        </div>
-        <button class="faqs__primary-button primary-button">Send</button>
+        <button class="form__primary-button primary-button">Send</button>
     </form>
 </body>
 </html>
