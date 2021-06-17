@@ -20,14 +20,14 @@ body {
     border: 1px solid #97afd5;
 }
 
-.slider-btn--inactive {
+.slider-btn-inactive {
     opacity: 0.4;
 }
 
-.slider-btn--inactive:hover{
+.slider-btn-inactive:hover{
     cursor: default;
 }
 
-.slider-btn--active:hover {
+.slider-btn-active:hover {
     cursor: pointer;
 }

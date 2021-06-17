@@ -9,7 +9,7 @@ body {
 }
 
 
-.header__content-login {
+.header-content__login {
     color: #fff;
     font-size: 11px;
     background-color:transparent;
@@ -23,7 +23,7 @@ body {
     letter-spacing: 0.1em;
 }
 
-.header__content-login:hover {
+.header-content__login:hover {
     background-color: #f42f54;
     transition: all 0.5s ease-in-out;
 }
