@@ -1,15 +1,15 @@
-*{
+* {
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(18, 12, 100);
+body {
+    background-color: #2e0994;
     padding: 25px
 }
 
-.tab{
+.tab {
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -21,15 +21,17 @@ body{
     background: transparent;
     border: 2px solid rgba(151,175,213,0.3);
     text-decoration: none;
-    transition: all .5s;
+    transition-property: border, color;
+    transition-duration: .3s;
+    transition-timing-function: linear;
 }
 
-.tab:hover{
+.tab::before {
     color: #f42f54;
-    border: 2px solid #f42f54;
+    border-color: #f42f54;
 }
 
-.tab:focus{
+.tab::before {
     color: #f42f54;
-    border: 2px solid #f42f54;
+    border-color: #f42f54;
 }
