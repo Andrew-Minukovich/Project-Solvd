@@ -1,41 +1,43 @@
-body{
-    background-color: rgb(5, 4, 94);
+body {
+    background-color: #3611bb;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-.menu{
+.header-menu {
     display: flex;
     align-items: center;
     padding-left: 15px;
 }
 
-.menu__list{
+.header-menu__list {
     list-style-type: none;
 }
 
-.menu__item{
+.header-menu__item {
     display: inline;
     margin-right: 25px;
 }
 
-.menu__link{
+.header-menu__link {
     text-decoration: none;
     color: #fff;
     font-family: "Roboto", sans-serif;
     font-size: 15px;
     line-height: 18px;
-    transition: all 0.5s;
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: linear;
     position: relative;
 }
 
-.menu__link:hover{
+.header-menu__link:hover {
     color:#f42f54;
 }
 
-.menu__btn{
+.header-menu__btn {
     font-size: 12px;
     line-height: 24px;
     font-weight: 500;
@@ -48,12 +50,14 @@ ul{
     max-width: 100%;
     border: 2px solid #f42f54;
     border-radius: 44px;
-    letter-spacing: 0.1em;
+    letter-spacing: 3px;
     text-decoration: none;
     cursor: pointer;
-    transition: all 0.5s;
+    transition-property: background-color;
+    transition-duration: .3s;
+    transition-timing-function: linear;
 }
 
-.menu__btn:hover{
+.header-menu__btn:hover {
     background-color: #f42f54;
 }
