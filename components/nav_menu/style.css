@@ -2,10 +2,6 @@ body {
     background-color: #3611bb;
 }
 
-ul {
-    list-style-type: none;
-}
-
 .header-menu {
     display: flex;
     align-items: center;
