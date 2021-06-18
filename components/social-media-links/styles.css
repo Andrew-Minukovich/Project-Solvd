@@ -14,13 +14,13 @@ body {
     list-style-type: none;
 }
 
-.social-media-picture {
+.social-media__picture {
     border-radius: 50%;
     padding: 10px 10px;
     transition: 0.3s ease-in-out;
-}
+}   
 
-.social-media-picture:hover {
+.social-media__picture:hover {
     background-color: #fff;
     transition: 0.3s ease-in-out;
     cursor: pointer;
