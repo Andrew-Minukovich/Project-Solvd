@@ -8,27 +8,27 @@ body {
     background-color: #0a3fa1;
 }
 
-.container{
+.container {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.main-header{
+.main-header {
     position: fixed;
     top: 0;
     width: 100%;
     padding: 20px 0;
 }
 
-.main-header__header-wrapper{
+.main-header__header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.main-header__logo{
+.main-header__logo {
     display: block;
     width: 193px;
     height: 40px;

@@ -41,7 +41,7 @@ body {
     border: 2px solid #dbe4f7;
     background: #f42f54;
     left: 50%;
-    top: 200%;
+    top: 150%;
     transform: translate(-50%, -50%);
 }
 
@@ -53,7 +53,7 @@ body {
     background: #dbe4f7;
     border-radius: 2px;
     left: 50%;
-    top: 209%;
+    top: 159%;
     transform: translate(-50%);
 }
 
