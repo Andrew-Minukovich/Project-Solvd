@@ -23,7 +23,7 @@ body {
 .header2__sub-header {
     position: absolute;
     opacity: 0.06;
-    font-size: 124px;
+    font-size: 111px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
