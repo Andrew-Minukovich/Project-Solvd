@@ -11,7 +11,10 @@ body {
 
 .tokens-type {
     position: relative;
-    padding-left: 25px;
+    padding: 0 25px;
+    max-width: 270px;
+    width: 100%;
+    margin-bottom: 50px;
 }
 
 .tokens-type::before {
