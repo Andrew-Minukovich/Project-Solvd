@@ -11,10 +11,15 @@ body {
 
 .tokens-card {
     position: relative;
-    width: 374px;
+    max-width: 374px;
+    width: 100%;
     padding: 15px 25px;
     color: #fff;
     font-family: "Roboto", sans-serif;
+}
+
+.tokens-card._short {
+    max-width: 260px;
 }
 
 .tokens-card:before {
