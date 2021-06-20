@@ -114,7 +114,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    flex-wrap: wrap;
 }
 
 .platform__list-block{
@@ -172,9 +172,7 @@ body {
 }
 
 .platform__wrapper-rounds {
-    position: absolute;
-    right: 6%;
-    top: 26%;
+    padding: 107px 65px; 
 }
 
 @keyframes first_round {
