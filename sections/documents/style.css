@@ -5,8 +5,58 @@
 }
 
 body {
-    background-color: #1b239b;
-    padding: 120px 20px;
+    background-color: #1d44c2;
+}
+
+.documents{
+    padding: 120px 0;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 48px;
+    line-height: 1.3;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.documents__header2 {
+    margin-bottom: 10px;
+}
+
+.documents__sub-header {
+    position: absolute;
+    opacity: 0.06;
+    font-size: 111px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Roboto", sans-serif;
+    line-height: .9;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #202b47;   
+}
+
+.documents__description{
+    color: #97afd5;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    max-width: 50%;
+    margin: 0 auto 100px;
 }
 
 .documents-list {
