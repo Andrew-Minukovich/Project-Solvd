@@ -8,8 +8,10 @@ body {
     background-color: #121333;
 }
 
-.mvp{
-    padding: 120px 0;
+.mvp__wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 120px 0 120px 0;
 }
 
 .mvp__header {
@@ -81,7 +83,6 @@ h2:before{
 .mvp__content {
     display: flex;
     flex-direction: row;
-    width: 1110px;
     margin: 0 auto;
 }
 
