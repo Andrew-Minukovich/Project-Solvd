@@ -85,7 +85,23 @@ h2:before{
     margin-top: 60px;
 }
 
-.employee-card__photo {
+.board-member-card__photo {
+    position: relative;
+}
+
+.board-member-card__photo::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    width: 216px;
+    height: 234px;
+    background: rgba(244,47,84,0.4);
+    border-radius: 6px;
+    z-index: 1;
+}
+
+.board-member-card__picture {
     width: 216px;
     height: 234px;
     border-radius: 6px;
