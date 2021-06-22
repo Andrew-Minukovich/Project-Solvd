@@ -35,16 +35,21 @@ h2:before{
 }
 
 .team{
-    padding: 120px 0;
 }
 
-.team-header {
+.team__wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 120px 0 120px 0;
+}
+
+.team__header {
     margin: 0 auto;
     width: 480px;
     padding-bottom: 60px;
 }
 
-.team-description{
+.team__description{
     text-align: center;
     font-family: "Quicksand", sans-serif;
     line-height: 1.3;
