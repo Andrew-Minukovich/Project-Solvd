@@ -58,7 +58,7 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #97afd5;
+    color: #769ae4;
     line-height: 1.6;
     font-family: "Roboto", sans-serif;
     margin-bottom: 5px;
@@ -67,7 +67,7 @@ body {
 .form__input{
     font-family: "Roboto", sans-serif;
     border-radius: 6px;
-    border: 1px solid #dbe4f7;
+    border: 1px solid #769ae4;
     color: #97afd5;
     max-width: 255px;
     width: 100%;
@@ -86,20 +86,20 @@ body {
 }
 
 .form__input:hover{
-    border: 1px solid #f42f54;
+    border: 1px solid #fff;
 }
 
 .form__input:focus{
-    border: 1px solid #f42f54;
+    border: 1px solid #fff;
     outline: transparent;
 }
 
 .form__input._textarea:hover{
-    border: 1px solid #f42f54;
+    border: 1px solid #fff;
 }
 
 .form__input._textarea:focus{
-    border: 1px solid #f42f54;
+    border: 1px solid #fff;
     outline: transparent;
 }
 
