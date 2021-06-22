@@ -9,7 +9,7 @@ body {
     padding: 20px;
 }
 
-.header2 {
+.header {
     font-weight: 700;
     color: #fff;
     font-size: 48px;
@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 
-.header2__sub-header {
+.header__sub-header {
     position: absolute;
     z-index: -1;
     opacity: 0.06;

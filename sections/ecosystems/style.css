@@ -20,11 +20,11 @@ body {
     padding: 0 15px;
 }
 
-.ecosystems__header2{
+.ecosystems__header{
     margin-bottom: 50px;
 }
 
-.header2 {
+.header {
     font-weight: 700;
     color: #fff;
     font-size: 48px;
@@ -35,7 +35,7 @@ body {
     text-transform: uppercase;
 }
 
-.header2__sub-header {
+.header__sub-header {
     position: absolute;
     z-index: -1;
     opacity: 0.06;
