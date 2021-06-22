@@ -142,17 +142,19 @@ body {
 }
 
 .tokens__type-wrapper {
+    /*
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 50px;
 }
 
 .tokens-type {
     position: relative;
     padding: 0 25px;
-    max-width: 270px;
-    width: 100%;
-    margin-bottom: 50px;
 }
 
 .tokens-type::before {
