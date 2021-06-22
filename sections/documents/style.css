@@ -19,7 +19,7 @@ body {
     padding: 0 15px;
 }
 
-.header2 {
+.header {
     font-weight: 700;
     color: #fff;
     font-size: 48px;
@@ -30,7 +30,7 @@ body {
     text-transform: uppercase;
 }
 
-.documents__header2 {
+.documents__header {
     margin-bottom: 10px;
 }
 
@@ -57,7 +57,7 @@ body {
     font-weight: 400;
     font-family: "Roboto", sans-serif;
     max-width: 50%;
-    margin: 0 auto 100px;
+    margin: 0 auto;
 }
 
 .documents-list {
@@ -72,6 +72,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
     position: relative;
 }
 
@@ -87,6 +88,33 @@ body {
     top: -20%;
     left: 0;
     transition: transform .3s linear;
+}
+
+.documents-list__block:last-child:before{
+    left: 55%;
+    transform: translateX(-50%) rotate(135deg);
+}
+
+.documents-list__block:hover:last-child:before{
+    transform: scale(1.1) translateX(-50%) rotate(135deg);
+}
+
+.documents-list__block:nth-child(5n - 2):before{
+    left: 56%;
+    transform: translateX(-50%) rotate(70deg);
+}
+
+.documents-list__block:hover:nth-child(5n - 2):before{
+    transform: scale(1.1) translateX(-50%) rotate(70deg);
+}
+
+.documents-list__block:nth-child(3n + 2):before{
+    left: 50%;
+    transform: translateX(-50%) rotate(-90deg);
+}
+
+.documents-list__block:hover:nth-child(3n + 2):before{
+    transform: scale(1.1) translateX(-50%) rotate(-90deg);
 }
 
 .documents-list__block:hover::before{
