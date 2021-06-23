@@ -20,6 +20,7 @@ body {
 }
 
 .header {
+    padding: 12px;
     font-weight: 700;
     color: #fff;
     font-size: 48px;
