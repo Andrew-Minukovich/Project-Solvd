@@ -20,6 +20,7 @@ body {
     top: 0;
     width: 100%;
     padding: 20px 0;
+    background: #0a1227;
 }
 
 .main-header__header-wrapper {
@@ -46,7 +47,99 @@ body {
 
 .header-menu__item {
     display: inline;
-    margin-right: 25px;
+    padding: 20px 23px 20px 15px;
+    position: relative;
+}
+
+.header-menu__sub-menu {
+    position: absolute;
+    padding: 15px 10px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    width: 520px;
+}
+
+.header-menu__sub-menu._home {
+    display: none;
+    max-width: 450px;
+    background-color: #0b1326;
+}
+
+.header-menu__sub-menu._pages {
+    display: none;
+    max-width: 370px;
+    background-color: #0b1326;
+}
+
+.header-menu__sub-menu._blog {
+    display: none;
+    max-width: 215px;
+    background-color: #0b1326;
+}
+
+.header-menu__sub-menu._elements {
+    display: none;
+    max-width: 370px;
+    background-color: #0b1326;
+}
+
+.header-menu__sub-menu._blocks {
+    display: none;
+    max-width: 370px;
+    background-color: #0b1326;
+}
+
+.header-menu__item._home-item:hover .header-menu__sub-menu._home {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.header-menu__item._pages-item:hover .header-menu__sub-menu._pages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-menu__item._blog-item:hover .header-menu__sub-menu._blog {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.header-menu__item._elements-item:hover .header-menu__sub-menu._elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-menu__item._blocks-item:hover .header-menu__sub-menu._blocks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sub-menu-list {
+    list-style-type: none;
+}
+
+.sub-menu-list__item {
+    margin-bottom: 10px;
+}
+
+.sub-menu-list__item:last-child {
+    margin-bottom: 0;
+}
+
+.sub-menu-list__links {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #fff;
+    transition: color .3s linear;
+}
+
+.sub-menu-list__links:hover {
+    color:#f42f54;
 }
 
 .header-menu__link {
@@ -61,7 +154,7 @@ body {
     position: relative;
 }
 
-.header-menu__link:hover {
+.header-menu__item:hover .header-menu__link {
     color:#f42f54;
 }
 
