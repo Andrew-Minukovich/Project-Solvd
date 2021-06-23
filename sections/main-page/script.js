@@ -1,5 +1,5 @@
 function countdown(dateEnd) {
-    var timer, days, hours, minutes, seconds;
+    let timer, days, hours, minutes, seconds;
   
     dateEnd = new Date(dateEnd);
     dateEnd = dateEnd.getTime();
@@ -11,14 +11,14 @@ function countdown(dateEnd) {
     timer = setInterval(calculate, 1000);
   
     function calculate() {
-      var dateStart = new Date();
-      var dateStart = new Date(dateStart.getUTCFullYear(),
+      let dateStart = new Date();
+      dateStart = new Date(dateStart.getUTCFullYear(),
         dateStart.getUTCMonth(),
         dateStart.getUTCDate(),
         dateStart.getUTCHours(),
         dateStart.getUTCMinutes(),
         dateStart.getUTCSeconds());
-      var timeRemaining = parseInt((dateEnd - dateStart.getTime()) / 1000)
+      let timeRemaining = parseInt((dateEnd - dateStart.getTime()) / 1000)
   
       if (timeRemaining >= 0) {
         days = parseInt(timeRemaining / 86400);
