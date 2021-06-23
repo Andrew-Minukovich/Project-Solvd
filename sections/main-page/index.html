@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Document</title>
 </head>
 
@@ -29,14 +30,42 @@
             </div>
             <div class="main-page-content">
                 <div class="main-page-content__upper">
-                    <div class="main-page-content__progress-bar">
-
+                    <div class="main-page-content__progress-wrapper">
+                        <div class="main-page-content__target">
+                            <div class="main-page-content__target-item">RAISED - <span class="main-page-content__highlight">1,1250 Tokens</span>                            </div>
+                            <div class="main-page-content__target-item">TARGET - <span class="main-page-content__highlight">150,000 Tokens</span></div>
+                        </div>
+                        <div class="main-page-content__progress-bar">
+                            <div class="main-page-content__point _soft">SOFT CAP</div>
+                            <div class="main-page-content__point _crowdsale">CROWDSALE</div>
+                            <div class="main-page-content__point _hard">HARD CAP</div>
+                        </div>
                     </div>
-                    <div class="main-page-content__current-bonus">
-
+                    <div class="main-page-content__bonus-wrapper">
+                        <h2 class="main-page-content__bonus-title">CURRENT BONUS</h2>
+                        <div class="main-page-content__bonus-value">20%</div>
+                        <div class="main-page-content__bonus-ownership">Contributors can receive</div>
                     </div>
                     <div class="main-page-content__bonus-end">
-
+                        <h2 class="main-page-content__bonus-end-title">THE BONUS ENDS IN</h2>
+                        <div class="countdown">
+                            <div class="time-section">
+                                <span class="count" id="days"></span>
+                                <span class="units">Days</span>
+                            </div>
+                            <div class="time-section">
+                                <span class="count" id="hours"></span>
+                                <span class="units">Hours</span>
+                            </div>
+                            <div class="time-section">
+                                <span class="count" id="minutes"></span>
+                                <span class="units">Minutes</span>
+                            </div>
+                            <div class="time-section">
+                                <span class="count" id="seconds"></span>
+                                <span class="units">Seconds</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="main-page-content__lower">
