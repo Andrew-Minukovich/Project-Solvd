@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -15,31 +16,47 @@
             <div class="our-partners__header">
                 <h5 class="our-partners__title">OUR PARTNERS</h5>
             </div>
-            <div class="our-partners__content">
-                <ul class="our-partners__list">
-                    <li class="our-partners__item">
-                        <img class="our-partners__picture" src="assets/partner1.png">
-                    </li>
-                    <li class="our-partners__item">
-                        <img class="our-partners__picture" src="assets/partner2.png">
-                    </li>
-                    <li class="our-partners__item">
-                        <img class="our-partners__picture" src="assets/partner3.png">
-                    </li>
-                    <li class="our-partners__item">
-                        <img class="our-partners__picture" src="assets/partner4.png">
-                    </li>
-                    <li class="our-partners__item">
-                        <img class="our-partners__picture" src="assets/partner5.png">
-                    </li>
-                    <li class="our-partners__item">
-                        <img class="our-partners__picture" src="assets/partner1.png">
-                    </li>
-                    <li class="our-partners__item">
-                        <img class="our-partners__picture" src="assets/partner2.png">
-                    </li>
-                </ul>
+            <div class="our-partners__slider swiper-container">
+                <div class="our-partners__slider-wrapper swiper-wrapper">
+                    <div class="our-partners__slide swiper-slide">
+                        <div class="our-partners__slide-image">
+                            <img class="our-partners__picture" alt='first' src="assets/partner1.png">
+                        </div>
+                    </div>
+                    <div class="our-partners__slide swiper-slide">
+                        <div class="our-partners__slide-image">
+                            <img class="our-partners__picture" alt='second' src="assets/partner2.png">
+                        </div>
+                    </div>
+                    <div class="our-partners__slide swiper-slide">
+                        <div class="our-partners__slide-image">
+                            <img class="our-partners__picture" alt='third' src="assets/partner3.png">
+                        </div>
+                    </div>
+                    <div class="our-partners__slide swiper-slide">
+                        <div class="our-partners__slide-image">
+                            <img class="our-partners__picture" alt='forth' src="assets/partner4.png">
+                        </div>
+                    </div>
+                    <div class="our-partners__slide swiper-slide">
+                        <div class="our-partners__slide-image">
+                            <img class="our-partners__picture" alt='fifth' src="assets/partner5.png">
+                        </div>
+                    </div>
+                    <div class="our-partners__slide swiper-slide">
+                        <div class="our-partners__slide-image">
+                            <img class="our-partners__picture" src="assets/partner1.png">
+                        </div>
+                    </div>
+                    <div class="our-partners__slide swiper-slide">
+                        <div class="our-partners__slide-image">
+                            <img class="our-partners__picture" src="assets/partner2.png">
+                        </div>
+                    </div>
+                </div>
             </div>
+            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            <script src="../../js/slider.js"></script>
     </section>
 </body>
 
