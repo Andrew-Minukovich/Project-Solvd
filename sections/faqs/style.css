@@ -195,18 +195,28 @@ body {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    width: 376px;
+    list-style-type: none;
+}
+
+.social-media__link {
+    margin: 3px;
 }
 
 .social-media__picture {
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
     padding: 10px 10px;
     transition: 0.3s ease-in-out;
+    fill:#97afd5;
 }   
 
 .social-media__picture:hover {
-    background-color: #fff;
     transition: 0.3s ease-in-out;
     cursor: pointer;
+    fill: #f42f54;
+    background-color: #fff;
 }
 
 .form {
