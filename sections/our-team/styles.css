@@ -34,13 +34,11 @@ h2:before{
     color: #202b47;
 }
 
-.team{
-}
-
 .team__wrapper {
     max-width: 1140px;
     margin: 0 auto;
     padding: 120px 0 120px 0;
+    min-width: 0;
 }
 
 .team__header {
@@ -74,7 +72,6 @@ h2:before{
     flex-direction: row;
     list-style-type: none;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .employee-card {
@@ -82,7 +79,7 @@ h2:before{
     height: 370px;
 }
 
-.employee-card.even {
+.employee-card._even {
     margin-top: 60px;
 }
 
@@ -175,7 +172,9 @@ h2:before{
 }
 
 .team-content__buttons {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .team-content__btn_inactive {
@@ -188,4 +187,13 @@ h2:before{
 
 .team-content__btn_active:hover {
     cursor: pointer;
+}
+
+.team-content .swiper-button-prev::after, .team-content .swiper-button-next::after {
+    display: none;
+}
+
+.team-content .swiper-button-prev, .team-content .swiper-button-next {
+    display: flex;
+    position: static;
 }
