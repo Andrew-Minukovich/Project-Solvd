@@ -36,7 +36,7 @@ body {
 }
 
 .in-press {
-    width: 480px;
+    max-width: 480px;
     height: 632px;
     padding: 40px 10px;
 }
@@ -46,8 +46,13 @@ body {
 }
 
 .in-press__content {
-    width: 450px;
+    max-width: 450px;
     height: 396px;
+}
+
+.in-press__wrapper {
+    max-width: 450px;
+    height: 270px;
 }
 
 .in-press__list {
@@ -75,20 +80,15 @@ body {
     justify-content: center;
     border: 1px solid #97afd5;
     margin:0 10px;
+    position: static;
 }
 
 .in-press__buttons {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.in-press__btn_inactive {
-    opacity: 0.4;
-}
-
-.in-press__btn_inactive:hover{
-    cursor: default;
-}
-
-.in-press__btn_active:hover {
-    cursor: pointer;
+.swiper-button-prev::after, .swiper-button-next::after{
+    content: "";
 }
