@@ -38,14 +38,14 @@ h2:before{
 }
 
 .team__wrapper {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
     padding: 120px 0 120px 0;
 }
 
 .team__header {
     margin: 0 auto;
-    width: 480px;
+    max-width: 480px;
     padding-bottom: 60px;
 }
 
@@ -68,12 +68,13 @@ h2:before{
 
 .employeers {
     margin: 0 auto;
-    width: 1100px;
+    max-width: 1100px;
     padding: 0 15px;
     display: flex;
     flex-direction: row;
     list-style-type: none;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .employee-card {
@@ -124,23 +125,40 @@ h2:before{
 }
 
 .card-social-media {
-    margin-top: 16px;
     display: flex;
     flex-direction: row;
-    text-decoration: none;
     list-style-type: none;
+    width: 376px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.card-social-media__link {
+    margin: 1px;
 }
 
 .card-social-media__picture {
+    width: 27px;
+    height: 27px;
     border-radius: 50%;
-    padding: 10px 5px;
+    padding: 5px 5px;
     transition: 0.3s ease-in-out;
+    fill:#fff;
+}   
+
+.card-social-media__picture._linked {
+    padding: 3px 3px;
 }
 
 .card-social-media__picture:hover {
-    transition: 0.3s ease-in-out;
+    padding: 5.25px;
     cursor: pointer;
-    padding: 8px 5px;
+    fill: #f42f54;
+    transition: 0.3s ease-in-out;
+}
+
+.card-social-media__picture._linked:hover {
+    padding: 3.15px;
 }
 
 .team-content__btn {
