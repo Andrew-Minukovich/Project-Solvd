@@ -50,6 +50,12 @@ body {
     height: 580px;
 }
 
+.news__wrapper {
+    max-width: 475px;
+    height: 300px;
+    padding-left: 10px;
+}
+
 .news__cards {
     margin: 0 auto;
     width: 445px;
@@ -130,20 +136,15 @@ body {
     justify-content: center;
     border: 1px solid #97afd5;
     margin:0 10px;
+    position: static;
 }
 
 .news__buttons {
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.news__btn_inactive {
-    opacity: 0.4;
-}
-
-.news__btn_inactive:hover{
-    cursor: default;
-}
-
-.news__btn_active:hover {
-    cursor: pointer;
+.swiper-button-prev::after, .swiper-button-next::after{
+    content: "";
 }

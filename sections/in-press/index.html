@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
@@ -13,46 +14,79 @@
     <section class="in-press">
         <div class="in-press__header">
             <h2 class="header">
-                IN PRESS 
-                <span class="header__sub-header">PRESS</span> 
+                IN PRESS
+                <span class="header__sub-header">PRESS</span>
             </h2>
         </div>
-        <div class="in-press__content">
-            <ul class="in-press__list">
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner1.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner2.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner3.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner4.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner5.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner1.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner2.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner3.png">
-                </li>
-                <li class="in-press__item">
-                    <img class="in-press__picture" src="assets/partner4.png">
-                </li>
-            </ul>
+        <div class="in-press__content swiper-container">
+            <div class="in-press__wrapper swiper-wrapper">
+                <ul class="in-press__list swiper-slide">
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner1.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner2.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner3.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner4.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner5.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner1.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner2.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner3.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner4.png">
+                    </li>
+                </ul>
+                <ul class="in-press__list swiper-slide">
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner1.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner2.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner3.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner4.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner5.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner1.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner2.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner3.png">
+                    </li>
+                    <li class="in-press__item">
+                        <img class="in-press__picture" src="assets/partner4.png">
+                    </li>
+                </ul>
+            </div>
             <div class="in-press__buttons">
-                <button class="in-press__btn in-press__btn_inactive">&lt;</button>
-                <button class="in-press__btn in-press__btn_active">&gt;</button>
+                <button class="in-press__btn swiper-button-prev">&lt;</button>
+                <button class="in-press__btn swiper-button-next">&gt;</button>
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
