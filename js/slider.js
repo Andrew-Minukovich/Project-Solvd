@@ -76,8 +76,8 @@ new Swiper('.road-map-content__progress-bar', {
         clickable: true,
     },
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.road-map-content__btn._right',
+        prevEl: '.road-map-content__btn._left',
     }
 });
 
@@ -92,8 +92,8 @@ new Swiper('.team-content', {
     },
 
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.team-content__btn._right',
+        prevEl: '.team-content__btn._left',
     },
 });
 
@@ -108,8 +108,8 @@ new Swiper('.news__content', {
     },
 
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.news__btn._right',
+        prevEl: '.news__btn._left',
     },
 });
 
@@ -124,7 +124,7 @@ new Swiper('.in-press__content', {
     },
 
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.in-press__btn._right',
+        prevEl: '.in-press__btn._left',
     },
 });
